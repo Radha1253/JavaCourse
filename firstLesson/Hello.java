@@ -23,7 +23,18 @@ public class Hello {
             System.out.println("Either or both of the conditions are true");
         }
 
+        int newValue = 50;
+        //if(newValue = 50) {
+          //  System.out.println("This is an error");
+        //} - Issue is that there has to be a "==" instead of "=" in the if statement because there is a difference between a logical operator and assignment
 
+        if(newValue == 50){
+            System.out.println("Works!");
+        }
 
+        boolean isCar = false;
+        if(isCar){
+            System.out.println("This is not supposed to happen");
+        }
     }
 }
