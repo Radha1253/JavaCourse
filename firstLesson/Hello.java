@@ -47,5 +47,20 @@ public class Hello {
         String s = (isDomestic) ? "This car is domestic" : "This car is not domestic";
 
         System.out.println(s);
+
+        double value = 20;
+        double secondValue = 80;
+        double product = (value + secondValue)*100;
+        System.out.println("Product = " + product);
+
+        double remainder = product%40;
+        System.out.println("The Remainder = "+ remainder);
+
+        boolean isEven = remainder == 0 ? true : false;
+        System.out.println(isEven);
+
+        if (!isEven){
+            System.out.println("Got some remainder");
+        }
     }
 }
